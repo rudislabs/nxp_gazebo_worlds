@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="hamburg_model"> <!--NXP BUILDING VEHICLE START: [10, 3210, 0.5, 0, 0, 0] -->
+    <pose>0 0 0 0 0 0</pose> <!--LLA: 53.554400, 9.956885, 315.0 -->
+    <static>true</static>
+    <link name="hamburg_link">
+      <visual name="visual">
+        <geometry>
+          <mesh><uri>model://hamburg/hamburg_media/hamburg.dae</uri></mesh>
+        </geometry>
+        <pose>0 0 0 0 0 0</pose>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh><uri>model://hamburg/hamburg_media/hamburg.dae</uri></mesh>
+        </geometry>
+        <pose>0 0 0 0 0 0</pose>
+      </collision>
+    </link>
+  </model>
+</sdf>
